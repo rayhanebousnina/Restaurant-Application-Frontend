@@ -1,38 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .App {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+  overflow-x: hidden;
+}
+
+/******************** Client UI ********************/
+.cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  height: 40rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+.headers {
+  padding-top: 5rem;
   text-align: center;
+  color : white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards {
+  margin: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-title {
+  text-align: center;
+  margin-top: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/******************** Dashboard UI ******************/
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #2F4050;
 }
