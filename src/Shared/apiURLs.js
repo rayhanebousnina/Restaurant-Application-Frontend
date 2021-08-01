@@ -1,4 +1,4 @@
-export const SERVER_BASE_API = "http://localhost:5000/home/"
+export const SERVER_BASE_API = "http://localhost:4000/home/"
 
 export const GET_DISHES_API = `${SERVER_BASE_API}getDishes`
 export const ADD_DISHES_API = `${SERVER_BASE_API}dishes/add`
